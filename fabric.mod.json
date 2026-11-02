@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bada_client",
+  "version": "${version}",
+  "name": "Bada Client",
+  "description": "A blue-and-black Fabric client-side module GUI starter for Minecraft 1.21.11.",
+  "authors": ["ImBada"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.imbada.badaclient.BadaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
